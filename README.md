@@ -1,10 +1,10 @@
 # Enrollment Simulator
 
-A performance testing tool for the Wazuh authentication daemon (`wazuh-manager-authd`). This simulator generates concurrent SSL connections to test agent enrollment scenarios under various load conditions.
+A performance testing tool for the Cyber Reviewer authentication daemon (`wazuh-manager-authd`). This simulator generates concurrent SSL connections to test agent enrollment scenarios under various load conditions.
 
 ## Overview
 
-The enrollment simulator creates multiple threads that simultaneously attempt to register agents with the Wazuh authentication daemon. It supports various agent configurations and provides detailed performance statistics including response times, success rates, and throughput metrics.
+The enrollment simulator creates multiple threads that simultaneously attempt to register agents with the Cyber Reviewer authentication daemon. It supports various agent configurations and provides detailed performance statistics including response times, success rates, and throughput metrics.
 
 ## Features
 
@@ -54,7 +54,7 @@ The executable `enrollment-simulator` will be created in the `build/` directory.
 
 | Option | Description | Default |
 |--------|-------------|---------|
-| `--host HOST` | Target Wazuh server hostname or IP | localhost |
+| `--host HOST` | Target Cyber Reviewer server hostname or IP | localhost |
 | `--port PORT` | Target port for wazuh-manager-authd | 1515 |
 | `--password PASS` | Correct authentication password (optional) | none |
 | `--threads N` | Number of concurrent threads | 4 |
